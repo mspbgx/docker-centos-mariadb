@@ -6,10 +6,32 @@
 
 **MAINTAINER:** Maximilian Sparenberg <sparenberg@openenv.de>
 
+
+## Description
 Mariadb in a docker container based on centos image.
+```
+FROM centos:latest
+```
 
-Variables:
+## Usage
+### Standalone
+```
+docker run -d --name mariadb -e MYSQL_ROOT_PASSWORD=ABC123xyz -e MYSQL_DATABASE=nextcloud -e MYSQL_USER=nextcloud -e MYSQL_PASSWORD=ABC123xyz -p 3306:3306 mspbgx/centos-mariadb
+```
+### Compose
+cat docker-compose.yml
+```
+version: '3.1'
 
+services:
+
+  db:
+    image: mspbgx/centos-mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ABC123xyz
+```
+### Variables:
 ```
 MYSQL_ROOT_PASSWORD = <mysql root password>
 ```

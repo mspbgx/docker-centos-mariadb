@@ -53,6 +53,7 @@ if [ "$1" = 'mysqld_safe' ]; then
 		echo 'FLUSH PRIVILEGES ;' >> "$tempSqlFile"
 
 		set -- "$@" --init-file="$tempSqlFile"
+		rm -f $tempSqlFile
 	fi
 
 fi

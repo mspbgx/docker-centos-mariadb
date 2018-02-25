@@ -1,10 +1,10 @@
 # docker-centos-mariadb
 
-[![](https://images.microbadger.com/badges/version/mspbgx/mariadb.svg)](https://microbadger.com/images/mspbgx/mariadb "Get your own version badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/mspbgx/mariadb.svg)](hub)
-[![Docker Stars](https://img.shields.io/docker/stars/mspbgx/mariadb.svg)](hub)
+[![](https://images.microbadger.com/badges/version/mspbgx/mariadb.svg)](https://microbadger.com/images/mspbgx/centos-mariadb "Get your own version badge on microbadger.com")
+[![Docker Pulls](https://img.shields.io/docker/pulls/mspbgx/centos-mariadb.svg)](hub)
+[![Docker Stars](https://img.shields.io/docker/stars/mspbgx/centos-mariadb.svg)](hub)
 
-MAINTAINER: sparenberg@openenv.de
+MAINTAINER: Maximilian Sparenberg <sparenberg@openenv.de>
 
 Mariadb in a docker container based on centos image.
 

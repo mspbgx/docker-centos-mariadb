@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/mspbgx/centos-mariadb.svg)](hub)
 [![Docker Stars](https://img.shields.io/docker/stars/mspbgx/centos-mariadb.svg)](hub)
 
-MAINTAINER: Maximilian Sparenberg <sparenberg@openenv.de>
+**MAINTAINER:** Maximilian Sparenberg <sparenberg@openenv.de>
 
 Mariadb in a docker container based on centos image.
 
